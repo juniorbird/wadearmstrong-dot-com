@@ -1,0 +1,73 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Wade Armstrong"
+theme = "AllinOne"
+
+canonifyurls               = true
+contentdir                 = "content"
+layoutdir                  = "layouts"
+publishdir                 = "public"
+enableEmoji                = true
+hasCJKLanguage             = true
+summaryLength              = 200
+Paginate                   = 3
+
+
+pygmentsuseclasses         = true
+
+
+[permalinks]
+  blog                     = "blog/:slug/"
+
+
+[taxonomies]
+  tag                      = "tags"
+  series                   = "series"
+  category                 = "categories"
+
+
+[menu]
+  [[menu.main]]
+    name                   = "Posts"
+    weight                 = -120
+    identifier             = "posts"
+    url                    = "posts/"
+
+  [[menu.main]]
+    name                   = "About"
+    weight                 = -100
+    identifier             = "about"
+    url                    = "about/"
+
+
+
+[params]
+  faviconfile              = "logos/default_trans_80x80.png"               # from static/
+  avatar                   = "headshots/wade_close.jpg"             # path to image in static dir e.g img/avatar.png
+  author                   = "Wade Armstrong"
+  description              = ["I love to code simple, quality solutions to real business problems,", "Build high-performing, happy teams that learn fast and follow Agile processes", "Challenge myself to cook gourmet, healthy meals for my family and friends,", "Travel the world, eat everything, and take meaningful photos,", "And, most of all, be a dad and husband."]           # appears in the site header when set to a non-empty string
+  welcome_head             = "Great to meet you!"
+  welcome_word             = "Do you need a technically-strong Lead to bring your team together, build quality, and contribute to your codebase? Read all about me to see if I'm your huckleberry."
+
+  latestpostscount         = 5                             # how many posts to display on the home page
+  bloggroupby              = 'month'
+  dateform                 = "Jan 2, 2006"
+  dateformfull             = "2006-01-02  Monday  15:04:05"
+  noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
+
+  # slides
+  slidesDirPath            = "static/header-slides"    # path to image in local dir (path for hugo)
+  slidesDirPathURL         = "img/header-slides"    # path to image in static dir (for static pages)
+
+  # highlighting
+  highlightjs              = true
+
+  # latex
+  katex                    = true
+
+  # links
+  github                   = "//github.com/juniorbird"
+  linkedin                 = "//linkedin.com/in/wadearmstrong"
+  twitter                  = "//twitter.com/kaizendad"
+  instagram                = "//instagram.com/kaizendad"
+  include_rss              = true                          # include RSS <link> tag in <head> and show RSS icon
