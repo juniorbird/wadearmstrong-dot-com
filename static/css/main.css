@@ -1170,3 +1170,10 @@ toc-nav  scrollspy
   color: #666 !important;
   font-style: normal;
 }
+
+
+/* Custom styles */
+.welcome-word {
+  font-size:1.8rem;
+  color: var(--text-light);
+}

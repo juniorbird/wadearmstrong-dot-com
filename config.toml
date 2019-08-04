@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://wadearmstrong.com"
 languageCode = "en-us"
 title = "Wade Armstrong"
 theme = "AllinOne"
@@ -45,9 +45,10 @@ pygmentsuseclasses         = true
   faviconfile              = "logos/default_trans_80x80.png"               # from static/
   avatar                   = "headshots/wade_close.jpg"             # path to image in static dir e.g img/avatar.png
   author                   = "Wade Armstrong"
-  description              = ["I love to code simple, quality solutions to real business problems,", "Build high-performing, happy teams that learn fast and follow Agile processes", "Challenge myself to cook gourmet, healthy meals for my family and friends,", "Travel the world, eat everything, and take meaningful photos,", "And, most of all, be a dad and husband."]           # appears in the site header when set to a non-empty string
+  author_intro             = "Hi, I'm Wade Armstrong"
+  description              = ["I'm a Developer and Engineering Manager", "who builds high-performing, happy teams", "and writes solid code in complex systems.", "I love to travel the world, eat all the things,", "cook them too, and take photos of it all."]           # appears in the site header when set to a non-empty string
   welcome_head             = "Great to meet you!"
-  welcome_word             = "Do you need a technically-strong Lead to bring your team together, build quality, and contribute to your codebase? Read all about me to see if I'm your huckleberry."
+  welcome_word             = "<p>Do you need a technically-strong Lead to bring your team together and build quality, while still writing code? I've worked at scale (tens of millions of pageviews per day) and starting from zero. As a leader on software teams, I've mentored junior team members, turned around failed processes, and advocated for quality throughout the organization.</p><p>I'm passionate about Agile approaches, cross-functional teamwork, and building an inclusive and diverse culture. I love to travel with my wife and son, seeing new things and trying all the new foods; cooking and grilling all year 'round in sunny Southern California; and taking photos of it all.</p>"
 
   latestpostscount         = 5                             # how many posts to display on the home page
   bloggroupby              = 'month'
@@ -57,7 +58,7 @@ pygmentsuseclasses         = true
 
   # slides
   slidesDirPath            = "static/header-slides"    # path to image in local dir (path for hugo)
-  slidesDirPathURL         = "img/header-slides"    # path to image in static dir (for static pages)
+  slidesDirPathURL         = "header-slides"    # path to image in static dir (for static pages)
 
   # highlighting
   highlightjs              = true
