@@ -76,9 +76,9 @@
       <div class="col-12 col-sm-5 align-middle">
         <a href="{{ .Site.BaseURL }}">
           {{ if $.Site.Params.avatar }}
-            <img class="pull-right avatar avatar-md" src="{{ $.Site.Params.avatar | absURL }}" alt="" >
+            <img class="pull-right avatar avatar-sm" src="{{ $.Site.Params.avatar | absURL }}" alt="" >
           {{ else if $.Site.Params.faviconfile }}
-            <img class="pull-right avatar avatar-md" src="{{ $.Site.Params.faviconfile | absURL }}" alt="">
+            <img class="pull-right avatar avatar-sm" src="{{ $.Site.Params.faviconfile | absURL }}" alt="">
           {{ end }}
         </a>
       </div>
