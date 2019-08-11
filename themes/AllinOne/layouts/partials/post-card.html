@@ -1,5 +1,5 @@
 <div class="post-wrapper white-bg post-card">
-  
+
   <a href="{{ .Permalink }}">
     <div class="post-header text-center">
       <div class="px-4 post-heading">{{ .Title }}</div>
@@ -9,7 +9,7 @@
         {{ else }}
           <li>{{ .Date.Format "Jan 2, 2006" }}</li>
         {{ end }}
-    
+
         {{ if not .Site.Params.noshowreadtime }}
           <li class="middot"></li>
           <li>{{ i18n "readingTime" .ReadingTime }}</li>
@@ -17,21 +17,21 @@
       </ul>
     </div>
     {{ with .Params.img }}
-    
+
       <div class="view">
         <img src="{{ . | absURL }}" />
       </div>
     {{ end }}
 
     {{ if .Params.summary }}
-      {{ .Params.summary| plainify | htmlUnescape  }}
+      {{ .Params.summary| markdownify }}
     {{ else }}
-      {{ .Summary | plainify | htmlUnescape }}......
+      {{ .Summary | markdownify }}......
     {{ end }}
   </a>
 
-  
-  
+
+
   <div class="post-meta li-x mt-2 div-x">
     <div>
       {{ if .Params.categories }}
@@ -45,7 +45,7 @@
         {{ end }}
       {{ end }}
     </div>
-   
+
     <div>
       {{ if .Params.tags }}
         {{ partial "tags.html" . }}
