@@ -1,6 +1,6 @@
 
 /* .container-fluid {
-  padding-left: 0 !important;
+  padding-left: 0 !i  portant;
   padding-right: 0 !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -644,7 +644,7 @@ carousel
 .carousel-content {
   position: absolute;
   right: 0;
-  top: 30%;
+  top: 20%;
   left: 0;
   /* z-index: 15; */
   /* display: -ms-flexbox;
@@ -1176,4 +1176,14 @@ toc-nav  scrollspy
 .welcome-word {
   font-size:1.8rem;
   color: var(--text-light);
+}
+
+@media screen and (max-width: 768px) {
+  .display-3 {
+    font-size:2rem;
+    font-weight: 300;
+  }
+  .welcome-word {
+    font-size: 1.2rem;
+  }
 }

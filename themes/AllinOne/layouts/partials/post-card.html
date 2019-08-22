@@ -1,4 +1,7 @@
-<div class="post-wrapper white-bg post-card">
+{{ if .Params.hidden }}
+  <!-- Nothing to see here -->
+{{ else }}
+  <div class="post-wrapper white-bg post-card">
 
   <a href="{{ .Permalink }}">
     <div class="post-header text-center">
@@ -54,3 +57,4 @@
   </div>
 
 </div>
+{{ end }}

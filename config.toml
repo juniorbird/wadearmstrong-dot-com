@@ -17,7 +17,7 @@ pygmentsuseclasses         = true
 
 
 [permalinks]
-  blog                     = "blog/:slug/"
+  blog                     = "posts/:slug/"
 
 
 [taxonomies]
@@ -46,7 +46,7 @@ pygmentsuseclasses         = true
   avatar                   = "headshots/wade_close.jpg"             # path to image in static dir e.g img/avatar.png
   author                   = "Wade Armstrong"
   author_intro             = "Hi, I'm Wade Armstrong"
-  description              = ["I'm a Developer and Engineering Manager", "who builds high-performing, happy teams", "and writes solid code in complex systems.", "I love to travel the world, eat all the things,", "cook them too, and take photos of it all."]           # appears in the site header when set to a non-empty string
+  description              = "I'm a Developer & Engineering Manager who builds high-performing, quality-focused, happy teams. I love to travel, eat all the things, cook them too, and take photos of it all."           # appears in the site header when set to a non-empty string
   welcome_head             = "Great to meet you!"
   welcome_word             = "<p>Do you need a technically-strong Lead to bring your team together and build quality, while still writing code? I've worked at scale (tens of millions of pageviews per day) and starting from zero. As a leader on software teams, I've mentored junior team members, turned around failed processes, and advocated for quality throughout the organization.</p><p>I'm passionate about Agile approaches, cross-functional teamwork, and building an inclusive and diverse culture. I love to travel with my wife and son, seeing new things and trying all the new foods; cooking and grilling all year 'round in sunny Southern California; and taking photos of it all.</p>"
 

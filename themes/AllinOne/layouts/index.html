@@ -4,9 +4,9 @@
 
   <!-- Welcome Word -->
   {{ with $.Site.Params.welcome_head }}
-    <section class="container pt-5 text-center">
-      <h1 class="display-3">{{ $.Site.Params.welcome_head }}</h1>
-      <div class="welcome-word">
+    <section class="container pt-5">
+      <h1 class="display-3 text-center">{{ $.Site.Params.welcome_head }}</h1>
+      <div class="welcome-word text-md-left text-lg-center">
       {{ safeHTML $.Site.Params.welcome_word }}
       </div>
     </section>
@@ -36,7 +36,7 @@
       <!-- Post list -->
       <!-- <div class="pt-5 px-5 mx-5"> -->
       <div class="col-md-9 mt-3">
-        {{ $totalpostscount := len (.Data.Pages) }}
+        {{ $totalpostscount := len (.Data.Pages)}}
         {{ $latestpostscount := .Site.Params.latestpostscount | default $totalpostscount }}
         {{ if gt $latestpostscount 0 }}
           <!-- <div class='post-heading'>
