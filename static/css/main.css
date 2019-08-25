@@ -1187,3 +1187,10 @@ toc-nav  scrollspy
     font-size: 1.2rem;
   }
 }
+
+/* Blog stuff */
+.post-content img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
