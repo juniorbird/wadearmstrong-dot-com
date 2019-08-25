@@ -562,6 +562,7 @@ Avatar
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
   max-width: 300px;
   width: 50px;
+  float: right;
 }
 
 .navbar-brand .avatar {
@@ -1183,8 +1184,31 @@ toc-nav  scrollspy
     font-size:2rem;
     font-weight: 300;
   }
+
   .welcome-word {
     font-size: 1.2rem;
+  }
+
+  .pull-sm-center {
+    float: none !important;
+  }
+
+  .text-sm-center {
+    text-align: center;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+}
+
+@media screen and (main-width: 769px) {
+  .pull-md-right {
+    float: right !important;
+  }
+
+  .text-md-left {
+    text-align: left;
   }
 }
 
