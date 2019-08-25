@@ -1,6 +1,7 @@
 ---
 title: "About"
 hidden: "true"
+images: ["headshots/wade_pensive.jpg"]
 date: 2019-08-03T21:19:11-07:00
 ---
 Hi, I’m Wade! You probably knew that, based upon the header above and the entire home page.

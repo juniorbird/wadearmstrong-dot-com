@@ -3,6 +3,7 @@ title: "New Tools, New Site"
 date: 2019-07-22T20:15:07-07:00
 draft: false
 categories: ["Meta"]
+images: ["/blog/new_tools_new_site/truck_bw.jpg", "/blog/new_tools_new_site/rotary-prop.jpg", "/blog/new_tools_new_site/tracks.jpg", "/blog/new_tools_new_site/spitfire-prop.jpg"]
 summary: "I've had a lot of blogs over the years &mdash; starting in 1999, when I made my own CMS using Active Server Pages (well, all of a CMS except the \"edit post\" part, which turned out to be a problem), through the mid-2000s when I blogged through my business school experience, to personal blogging over the last few years. Blogging has always been great for me, because, to quote an old boss of mine, \"huh, you work out your thoughts by writing them down, don't you.\"..."
 ---
 I've had a lot of blogs over the years &mdash; starting in 1999, when I made my own CMS using [Active Server Pages](https://riptutorial.com/asp-classic) (well, all of a CMS except the "edit post" part, which turned out to be a problem), through the mid-2000s when I blogged through my business school experience, to personal blogging over the last few years. Blogging has always been great for me, because, to quote an old boss of mine, "huh, you work out your thoughts by writing them down, don't you."
