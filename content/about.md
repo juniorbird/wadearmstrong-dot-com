@@ -22,7 +22,7 @@ Of course, it’s not all that simple. I also:
 * **Advocate for my team** as a whole, and for team members individually, with the wider organization, because when the team wins we all win
 * **Focus on quality**, measuring that objectively through unit and integration testing, and subjectively through code readability and maintainability
 * **Challenge us all** to be better, through regular code reviews, evangelization of best practices, and group presentations
-* **Communicate constantly**, within the team, laterally, and upwards &mdash; I’m comfortable speaking both in a crowd of engineers and to a flock of senior managers, salespeople, marketers, and more, across all of the core competencies a business must have
+* **Communicate constantly**, within the team, laterally, and upwards &mdash; I’m comfortable speaking both in a crowd of engineers and to a flock of senior managers, salespeople, marketers, clients, and more, across all of the core competencies a business must have
 * **Build predictable, repeatable processes** that automate or standardize the work that we do over and over again, so that we can focus our energies on creating new features and improving the codebase
 * **Support diversity** in background and thinking style, because we all work better together
 
