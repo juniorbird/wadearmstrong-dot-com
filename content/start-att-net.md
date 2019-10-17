@@ -3,7 +3,7 @@ title: "Portfolio Item: start.att.net"
 hidden: "true"
 images: ["misc-images/start-att-net-hp-thumb.png"]
 date: 2019-10-14T21:23:25-07:00
-draft: true
+draft: false
 ---
 ## Background
 
